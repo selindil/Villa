@@ -24,10 +24,10 @@ namespace Villa.DataAccess.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Quest> Quests { get; set; }
         public DbSet<Video> Videos { get; set; }
-    }
+   
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder);
+        
         modelBuilder.Entity<Banner>().ToCollection("Banners");
         modelBuilder.Entity<Contact>().ToCollection("Contacts");
         modelBuilder.Entity<Counter>().ToCollection("Counters");
@@ -40,5 +40,5 @@ namespace Villa.DataAccess.Context
      
 
     }
-
+    }
 }
