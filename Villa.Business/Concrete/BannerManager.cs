@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Villa.Entity.Entities;
 
-namespace Villa.DataAccess.Abstract
+namespace Villa.Business.Concrete
 {
-    public interface IMessageDal : IGenericDal<Message>
+    internal class BannerManager
     {
     }
 }

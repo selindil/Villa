@@ -22,4 +22,4 @@ namespace Villa.DataAccess.Abstract
 
     }
 }
-}
+
